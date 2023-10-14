@@ -46,9 +46,10 @@ CareerConnect is a feature-rich web application for building and expanding your 
 5. Open your browser and visit http://localhost:3000 to access CareerConnect.
 
 ## Credits
-   **Prateek Kumar** (ReactJS Developer) - Your role in the development of CareerConnect.
-   **Cloud Counselage:** (IT & Management Consulting) - Acknowledgment and thanks to Cloud Counselage for providing the internship opportunity and support.
-   **Open-Source Community:** We thank the open-source community for their contributions, feedback, and support.
+
+1. Developed by **Prateek Kumar** (ReactJS Developer)
+2. **Cloud Counselage:** (IT & Management Consulting) - Acknowledgment and thanks to Cloud Counselage for providing the internship opportunity and support.
+3. **Open-Source Community:** We thank the open-source community for their contributions, feedback, and support.
 
 If we've missed anyone, please accept our apologies, and know that your contributions are greatly appreciated.
 
