@@ -1,0 +1,147 @@
+.widgets {
+    top: 80px;
+    flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+    border-bottom: 0;
+}
+
+.widgets_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.widgets_header > h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.widgets_article {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widgets_article:hover{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.widgets_articleLeft {
+    color: #2DA5DA;
+    margin-right: 5px;
+}
+
+/* .widgets_articleLeft > .MuiSvgIcon-root {
+    font-size: 15px;
+} */
+
+.widgets_articleRight {
+    flex: 1;
+}
+
+.widgets_articleRight > h4 {
+    font-size: 14px;
+}
+
+.widgets_articleRight > p {
+    font-size: 12px;
+    color: gray;
+}
+
+
+.showbtn {
+    margin-left: 30px;
+    display: flex;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 8px;
+    border-bottom: 0;
+}
+
+.widgets > a {
+    text-decoration: none;
+}
+
+.showbtn > button {
+    border: none;
+    color: gray;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.showbtn > button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.showbtn:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.widgets_bottom {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.widgets_bottom > img {
+    width: 50px;
+    height: 50px;
+}
+
+.widgets_bottom > p > a{
+    text-decoration: none;
+}
+
+.widgets_bottom > a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #213755;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.widgets_bottom > .MuiSvgIcon-root {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.widgets_items {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-top: 1px solid lightsalmon;
+    border-bottom: 1px solid lightblue;
+}
+
+.widgets_items > a {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.widgets_bottom:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

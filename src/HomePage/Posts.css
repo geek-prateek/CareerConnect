@@ -1,0 +1,67 @@
+.post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.post_header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.post_info {
+    margin-left: 10px;
+}
+
+.post_info > h2 {
+    font-size: 15px;
+}
+
+.post_info > p {
+    font-size: 12px;
+    color: gray;
+}
+
+.post_body {
+    overflow-wrap: anywhere;
+}
+
+.post_react {
+    margin: 10px;
+    font-size: 13px;
+}
+
+.post_react > a {
+    color: gray;
+    text-decoration: none;
+}
+
+.post_react > a:hover{
+    text-decoration: underline;
+    color: #2DA5DA;
+}
+
+.post_button {
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post_left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_left > .MuiSvgIcon-root {
+    font-size: 19px;
+}
+
+.post_left > a {
+    margin-left: 6px;
+    text-decoration: none;
+}
+
+.post_right {
+    font-weight: normal;
+}
